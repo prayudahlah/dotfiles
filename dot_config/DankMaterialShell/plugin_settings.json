@@ -1,0 +1,18 @@
+{
+  "emojiLauncher": {
+    "enabled": true,
+    "noTrigger": false,
+    "trigger": ":"
+  },
+  "asusControlCenter": {
+    "enabled": false
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "dockerManager": {
+    "enabled": true,
+    "shellPath": "/bin/sh"
+  }
+}
