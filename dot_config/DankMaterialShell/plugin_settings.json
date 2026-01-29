@@ -12,7 +12,8 @@
     "trigger": "="
   },
   "dockerManager": {
-    "enabled": true,
-    "shellPath": "/bin/sh"
+    "enabled": false,
+    "shellPath": "/bin/sh",
+    "groupByCompose": true
   }
 }

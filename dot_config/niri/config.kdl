@@ -313,6 +313,8 @@ binds {
     Mod+Shift+J     { focus-window-down; }
     Mod+Shift+K     { focus-window-up; }
     Mod+L     { focus-column-right; }
+    Mod+A     { focus-column-left; }
+    Mod+D     { focus-column-right; }
 
     Mod+Ctrl+Left  { move-column-left; }
     Mod+Ctrl+Down  { move-window-down; }

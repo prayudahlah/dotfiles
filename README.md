@@ -2,19 +2,20 @@
 
 ## Setup
 
-Install chezmoi: https://www.chezmoi.io/install/
+#### Install chezmoi   
+https://www.chezmoi.io/install/
 
-# Initialize dotfiles
+#### Initialize dotfiles
 ```bash
 chezmoi init git@github.com:prayudahlah/dotfiles.git
 ```
 
-# Install dependencies (see install.sh)
+#### Install dependencies (see install.sh)
 ```bash
 ./install.sh
 ```
 
-# Apply dotfiles
+#### Apply dotfiles
 ```bash
 chezmoi apply
 ```
