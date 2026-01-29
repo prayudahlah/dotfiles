@@ -1,7 +1,5 @@
 # Dotfiles
 
----
-
 ## Setup
 
 ```bash
