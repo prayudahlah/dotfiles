@@ -2,6 +2,12 @@
 
 // Input device configuration.
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
+
+
+debug {
+    render-drm-device "/dev/dri/renderD128"
+}
+
 input {
     keyboard {
         xkb {
@@ -530,3 +536,5 @@ binds {
 include "dms/cursor.kdl"
 
 include "dms/outputs.kdl"
+
+include "dms/windowrules.kdl"
