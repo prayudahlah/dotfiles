@@ -2,4 +2,6 @@ README.md
 .git/
 **/.git/**
 *.log
-.DS_Store
+**/cache/**
+**/log/**
+**/.DS_Store
