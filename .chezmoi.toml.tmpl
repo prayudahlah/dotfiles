@@ -1,0 +1,5 @@
+encryption = "gpg"
+
+[gpg]
+    symmetric = true
+    args = ["--batch", "--passphrase", {{ promptString "passphrase" | quote }}, "--no-symkey-cache", "--quiet"]
